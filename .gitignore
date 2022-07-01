@@ -1,0 +1,8 @@
+build/
+install/
+log/
+.cache/
+materials/
+pictures/
+fps.txt
+script.txt

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.7">
+    <actor name="display">
+        <pose>0 0 0</pose>
+        <static>false</static>
+        <link name="display_link">
+            <visual name="visual_display">
+				<!-- Display change plugin here -->
+            <plugin name="demo_change_plugin" filename="libDisplayChangePlugin.so"></plugin>
+            <pose>0 0 1</pose>
+            <geometry>
+                <box>
+                <size>1 1 1</size>
+                </box>
+            </geometry>
+            <material>
+				<!-- Paste script.txt here!-->
+            </material>
+            </visual>
+        </link>
+    </actor>
+</sdf>
