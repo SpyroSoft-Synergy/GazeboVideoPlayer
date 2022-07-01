@@ -1,6 +1,6 @@
 # GazeboVideoPlayer
 Play video in gazebo simulation.
-[ ] Here should be result gif!
+![](https://github.com/SpyroSoft-Synergy/GazeboVideoPlayer/blob/dev/example/final_result.gif)
 
 Plugin
 -
